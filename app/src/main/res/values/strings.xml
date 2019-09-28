@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OneCodes</string>
+    <string name="tab_a_label">OneCodes</string>
+    <string name="tab_b_label">TwoCodes</string>
+    <string name="tab_c_label">ThreeCodes</string>
+
+</resources>

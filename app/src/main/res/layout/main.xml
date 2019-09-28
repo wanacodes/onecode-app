@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        style="@style/Widget.MaterialComponents.TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/ic_icon_a_24"
+            android:text="@string/tab_a_label"/>
+        <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/ic_icon_b_24"
+            android:text="@string/tab_b_label"/>
+        <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/ic_icon_c_24"
+            android:text="@string/tab_c_label"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+</LinearLayout>
