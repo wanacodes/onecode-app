@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/mainPage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Info" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wan Firdaus" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textPersonAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28 Years Old" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textPersonPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="017 - 4151471" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textPersonEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wanfirdaus91@gmail.com" />
+
+    </LinearLayout>
+
+    ---------------------------------------
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textEduTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPM" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textEduYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2008" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textEduName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMK Bandar Baru Sg Buloh" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textEduResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7A 1B" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor Degree" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2013-2016" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universiti Putra Malaysia" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.51" />
+    </LinearLayout>
+
+    ---------------------------------------
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technical Knowledge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTML & CSS" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHP" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MYSQL" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAVASCRIPT (React Framework)" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAVA (Android Development)" />
+    </LinearLayout>
+
+
+</LinearLayout>
